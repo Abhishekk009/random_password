@@ -23,5 +23,4 @@ if __name__ == "__main__":
         generated_password = generate_password(password_length)
         print("Generated password:", generated_password)
     except ValueError as err:
-        # Handles non-integer input and length < 6 cases
         print(err)
